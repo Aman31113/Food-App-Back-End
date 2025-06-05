@@ -8228,23 +8228,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2401697\\.nuget\\packages\\": {},
+    "C:\\Users\\2401694\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2401697\\OneDrive - Cognizant\\Desktop\\Backend\\Online-food-delivery-system\\Online food delivery system\\Online food delivery system.csproj",
+      "projectUniqueName": "C:\\Users\\2401694\\OneDrive - Cognizant\\Desktop\\Project\\FinalBackend\\Online food delivery system\\Online food delivery system.csproj",
       "projectName": "Online food delivery system",
-      "projectPath": "C:\\Users\\2401697\\OneDrive - Cognizant\\Desktop\\Backend\\Online-food-delivery-system\\Online food delivery system\\Online food delivery system.csproj",
-      "packagesPath": "C:\\Users\\2401697\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2401697\\OneDrive - Cognizant\\Desktop\\Backend\\Online-food-delivery-system\\Online food delivery system\\obj\\",
+      "projectPath": "C:\\Users\\2401694\\OneDrive - Cognizant\\Desktop\\Project\\FinalBackend\\Online food delivery system\\Online food delivery system.csproj",
+      "packagesPath": "C:\\Users\\2401694\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2401694\\OneDrive - Cognizant\\Desktop\\Project\\FinalBackend\\Online food delivery system\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\2401697\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\2401694\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
