@@ -44,7 +44,9 @@ namespace Online_food_delivery_system.Repository
         {
             var payment = await _context.Payments
                 .Include(p => p.Order)
-                .ThenInclude(o => o.Delivery)
+                .ThenInclude(o => o.Customer)
+                .Include(p=>p.Order)
+                .ThenInclude(o=>o.Restaurant)
                 .FirstOrDefaultAsync(p => p.PaymentID == ID);
 
             if (payment == null)

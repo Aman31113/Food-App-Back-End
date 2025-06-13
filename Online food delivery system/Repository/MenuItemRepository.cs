@@ -21,8 +21,9 @@ namespace Online_food_delivery_system.Repository
         }
         public async Task<IEnumerable<MenuItem>> GetMenuItemsByNameAsync(string menuItemName)
         {
-            return await _context.MenuItems
-                .Where(m => m.Name != null && m.Name.Contains(menuItemName)) // Search by name
+            return await _context.MenuItems.Include(m=>m.Restaurant)
+                .Where(m => m.Name != null && m.Name.Contains(menuItemName))
+                // Search by name
                 .ToListAsync();
         }
 

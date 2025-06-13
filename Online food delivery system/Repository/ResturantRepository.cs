@@ -29,6 +29,7 @@ namespace Online_food_delivery_system.Repository
                 .ThenInclude(o => o.Customer)
                 .Include(r => r.Orders)
                 .ThenInclude(o => o.Delivery)
+                .ThenInclude(d => d.Agent)
                 .Include(r => r.Orders)
                 .ThenInclude(o => o.Payment)
                 .Include(r => r.Orders)

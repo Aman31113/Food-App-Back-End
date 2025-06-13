@@ -20,7 +20,7 @@ namespace Online_food_delivery_system.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "admin,agent")]
+        //[Authorize(Roles = "admin,agent")]
         public async Task<IActionResult> GetAllAgents()
         {
             var agents = await _agentService.GetAllAgentsAsync();
@@ -43,7 +43,7 @@ namespace Online_food_delivery_system.Controllers
             return CreatedAtAction(nameof(GetAllAgents), new { id = agent.AgentID }, agent);
         }
         [HttpGet("{email}")]
-        [Authorize(Roles = "customer,admin,agent")]
+        //[Authorize(Roles = "customer,admin,agent")]
         public async Task<IActionResult> GetAgentById(string email)
         {
             var agent = await _agentService.GetAgentByIdAsync(email);

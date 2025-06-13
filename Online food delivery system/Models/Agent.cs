@@ -17,7 +17,6 @@ namespace Online_food_delivery_system.Models
         [MaxLength(15)]
         public string? AgentContact { get; set; }
 
-
         [Required(ErrorMessage = "Please Enter Your Email")]
         [EmailAddress]
         public string? Email { get; set; }

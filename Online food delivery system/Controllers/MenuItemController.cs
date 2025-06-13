@@ -97,7 +97,8 @@ namespace Online_food_delivery_system.Controllers
             existing.Name = upd.Name;
             existing.Description = upd.Description;
             existing.Price = upd.Price;
-            existing.Rating = upd.Rating;
+            //existing.Rating = upd.Rating;
+            existing.ImageUrl = upd.ImageUrl;
 
             await _menuItemService.UpdateMenuItemAsync(existing);
             return NoContent();
